@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TradingStock.Business.CQRS\TradingStock.Business.CQRS.csproj" />
+    <ProjectReference Include="..\TradingStock.Infrastructure\TradingStock.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
